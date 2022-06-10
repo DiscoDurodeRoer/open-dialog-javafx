@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="155.0" prefWidth="305.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controlador.VentanaPadreController">
+   <children>
+      <Button fx:id="btnAbrir" layoutX="67.0" layoutY="51.0" mnemonicParsing="false" onAction="#abrirVentanaHija" prefHeight="54.0" prefWidth="171.0" text="Abrir ventana hija" />
+   </children>
+</AnchorPane>
